@@ -1,0 +1,35 @@
+body {
+    color: black;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(179deg, rgba(0, 0, 0, 1) 0%, rgba(92, 8, 7, 1) 100%);
+
+}
+
+
+#dataContainer {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 15px;
+}
+
+#divHeader {
+    color: aliceblue;
+    padding: 10px;
+    font-weight: bolder;
+    width: 800px;
+    text-align: center;
+}
+
+body,
+html {
+    height: 100%;
+    display: grid;
+}
+
+.center-me {
+    margin: auto;
+}

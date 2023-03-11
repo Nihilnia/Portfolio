@@ -1,0 +1,211 @@
+body {
+    background-color: #0c0c0d;
+    color: aliceblue;
+    font-family: DarkerGrotesque-Regular;
+    font-size: 1.5em;
+}
+
+#Welcome {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(110, 14, 14, 0.5)), url(img/bG.png);
+    height: 1080px;
+
+
+}
+
+#welcomeText {
+    display: flex;
+    justify-content: center;
+    /* Align horizontal */
+    align-items: center;
+    /* Align vertical */
+}
+
+@font-face {
+    font-family: DarkerGrotesque-Regular;
+    src: url(fonts/DarkerGrotesque-Regular.ttf);
+    ;
+}
+
+#welcomEm {
+    margin-top: -1144px;
+}
+
+.link-secondary {
+    padding: 0 !important;
+}
+
+
+#Projects {
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+    background: linear-gradient(179deg, rgba(0, 0, 0, 1) 0%, rgba(40, 39, 43, 1) 100%);
+    height: 1080px;
+}
+
+.btnPrj a:link {
+    color: white;
+}
+
+/* visited link */
+.btnPrj a:visited {
+    color: white;
+}
+
+/* mouse over link */
+.btnPrj a:hover {
+    color: white;
+}
+
+/* selected link */
+.btnPrj a:active {
+    color: white;
+}
+
+
+.projects {
+    width: 800px;
+}
+
+
+.daSectionz {
+    height: 1920px;
+}
+
+
+#footer {
+    margin-bottom: 0;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 10px;
+    color: white;
+    text-shadow: 2px 2px rgb(116, 116, 116);
+    text-transform: uppercase;
+    border: solid 2px black;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 17px;
+    background-color: hsl(49deg 98% 60%);
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+
+button:active {
+    transform: scale(.9);
+    transition: all 100ms ease;
+}
+
+button svg {
+    transition: all .5s ease;
+    z-index: 2;
+}
+
+.play {
+    transition: all .5s ease;
+    transition-delay: 300ms;
+}
+
+button:hover svg {
+    transform: scale(3) translate(50%);
+}
+
+.now {
+    position: absolute;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all .5s ease;
+    z-index: 2;
+}
+
+button:hover .now {
+    transform: translateX(10px);
+    transition-delay: 300ms;
+}
+
+button:hover .play {
+    transform: translateX(200%);
+    transition-delay: 300ms;
+}
+
+
+
+
+/* Toggle dark mode */
+.switch {
+    --button-width: 3.5em;
+    --button-height: 2em;
+    --toggle-diameter: 1.5em;
+    --button-toggle-offset: calc((var(--button-height) - var(--toggle-diameter)) / 2);
+    --toggle-shadow-offset: 10px;
+    --toggle-wider: 3em;
+    --color-grey: #cccccc;
+    --color-green: #4296f4;
+}
+
+.slider {
+    display: inline-block;
+    width: var(--button-width);
+    height: var(--button-height);
+    background-color: var(--color-grey);
+    border-radius: calc(var(--button-height) / 2);
+    position: relative;
+    transition: 0.3s all ease-in-out;
+}
+
+.slider::after {
+    content: "";
+    display: inline-block;
+    width: var(--toggle-diameter);
+    height: var(--toggle-diameter);
+    background-color: #fff;
+    border-radius: calc(var(--toggle-diameter) / 2);
+    position: absolute;
+    top: var(--button-toggle-offset);
+    transform: translateX(var(--button-toggle-offset));
+    box-shadow: var(--toggle-shadow-offset) 0 calc(var(--toggle-shadow-offset) * 4) rgba(0, 0, 0, 0.1);
+    transition: 0.3s all ease-in-out;
+}
+
+.switch input[type="checkbox"]:checked+.slider {
+    background-color: var(--color-green);
+}
+
+.switch input[type="checkbox"]:checked+.slider::after {
+    transform: translateX(calc(var(--button-width) - var(--toggle-diameter) - var(--button-toggle-offset)));
+    box-shadow: calc(var(--toggle-shadow-offset) * -1) 0 calc(var(--toggle-shadow-offset) * 4) rgba(0, 0, 0, 0.1);
+}
+
+.switch input[type="checkbox"] {
+    display: none;
+}
+
+.switch input[type="checkbox"]:active+.slider::after {
+    width: var(--toggle-wider);
+}
+
+.switch input[type="checkbox"]:checked:active+.slider::after {
+    transform: translateX(calc(var(--button-width) - var(--toggle-wider) - var(--button-toggle-offset)));
+}

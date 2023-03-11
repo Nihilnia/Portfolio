@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback UI</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.3.min.js"></script>
+</head>
+
+<!-- undraw_reviews_lp8w.svg -->
+
+<body class="gradient-custom">
+
+    <section class="h-100 gradient-form" style="background-color: #eee;">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-xl-10" style="width: 83.33333333%;" !important>
+                    <div class="card rounded-3 text-black">
+                        <div class="row g-0">
+                            <div class="col-lg-6">
+                                <div class="card-body p-md-5 mx-md-4">
+
+                                    <div class="text-center">
+                                        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp"
+                                            style="width: 185px;" alt="logo">
+                                        <h4 class="mt-1 mb-5 pb-1">Send your feedback!</h4>
+                                    </div>
+
+
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="1.png" class="img-thumbnail" alt="..." id="choice_1"
+                                                    onClick='sendFeedback(this.id)'>
+                                            </div>
+                                            <div class="col">
+                                                <img src="2.png" class="img-thumbnail" alt="..." id="choice_2"
+                                                    onClick='sendFeedback(this.id)'>
+                                            </div>
+                                            <div class="col">
+                                                <img src="3.png" class="img-thumbnail" alt="..." id="choice_3"
+                                                    onClick='sendFeedback(this.id)'>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                    <!-- <div class="bg-image hover-overlay ripple">
+                                        <img src="1.png" class="img-fluid" id="choice_1"
+                                            onClick='sendFeedback(this.id)' />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(57, 192, 237, 0.2);"></div>
+                                        </a>
+                                    </div>
+                                    <div class="bg-image hover-overlay ripple">
+                                        <img src="2.png" class="img-fluid" id="choice_2"
+                                            onClick='sendFeedback(this.id)' />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(57, 192, 237, 0.2);"></div>
+                                        </a>
+                                    </div> -->
+                                    <!-- <div class="bg-image hover-overlay ripple">
+                                        <img src="3.png" class="img-fluid" id="choice_3"
+                                            onClick='sendFeedback(this.id)' />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(57, 192, 237, 0.2);"></div>
+                                        </a>
+                                    </div> -->
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+                                <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+                                    <h4 class="mb-4">We are more than just a company</h4>
+                                    <p class="small mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                        do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <script>
+        function sendFeedback(f) {
+            var elementID = `${f}`;
+
+            console.log(elementID);
+
+            switch (elementID) {
+                case "choice_1":
+                    console.log("%cUser' s feedback is great!", "color: blue");
+                    break;
+
+                case "choice_2":
+                    console.log("%cUser' s feedback is neutral!", "color: orange");
+                    break;
+
+                case "choice_3":
+                    console.log("%cUser' s feedback is bad!", "color: red");
+                    break;
+
+            };
+
+
+
+            var cardBody = $('.card-body');
+
+            cardBody.html(`
+            <div class="text-center">
+                                        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp"
+                                            style="width: 185px;" alt="logo">
+                                        <h4 class="mt-1 mb-5 pb-1">Thank you for your feedback!</h4>
+                                    </div>
+            
+                                    <img src='undraw_a_whole_year_vnfm.svg'/ style = 'width: 100%';>
+            
+            
+            `);
+
+
+        };
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
