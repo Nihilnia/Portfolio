@@ -31,7 +31,7 @@ Some of the projects of my portfolio include:
 
 - [Password Generator](https://github.com/Nihilnia/PasswordGenerator)<br/>
 The tool that make it easier to create a completely random password with any length.<br/>
-[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https://nihilnia.github.io/PasswordGenerator)<br/>
+[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://github.com/Nihilnia/PasswordGenerator)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https://nihilnia.github.io/PasswordGenerator)<br/>
 
 - [Todo List](https://github.com/Nihilnia/TodoList)<br/>
 Website that help you to track your todos.<br/>
