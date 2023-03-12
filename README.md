@@ -1,4 +1,4 @@
-# My Portfolio
+# My Portfolio [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 Welcome to my portfolio repository! This is where I showcase my best work and projects to potential employers and collaborators. 
 
