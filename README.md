@@ -22,7 +22,7 @@ The technologies I used in this portfolio include:
 
 - HTML
 - CSS
-- JavaScript
+- ![Javascript](https://badges.aleen42.com/src/javascript.svg)
 - React
 - Node.js
 - Express
