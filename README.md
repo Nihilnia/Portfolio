@@ -1,4 +1,4 @@
-# My Portfolio ![VSCode](https://badges.aleen42.com/src/visual_studio_code.svg) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) 
+# My Portfolio ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-1e1e1e?logo=Visual+Studio+Code&logoColor=blue) [![License - MIT](https://img.shields.io/badge/License-MIT-8CB904)](https://choosealicense.com/licenses/mit/)
 Welcome to my portfolio repository! This is where I showcase my best work and projects to potential employers and collaborators. 
 
 ## Table of Contents
