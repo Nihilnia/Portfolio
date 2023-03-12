@@ -35,11 +35,11 @@ The tool that make it easier to create a completely random password with any len
 
 - [Todo List](https://github.com/Nihilnia/TodoList)<br/>
 Website that help you to track your todos.<br/>
-[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://github.com/Nihilnia/TodoList)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https://github.com/Nihilnia/TodoList)<br/>
+[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://github.com/Nihilnia/TodoList)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https:/nihilnia.github.io//Nihilnia/TodoList)<br/>
 
 - [Binary Converter](https://github.com/Nihilnia/BinaryConverter)<br/>
 A tool for convert binary to text, text to binary.<br/>
-[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://github.com/Nihilnia/BinaryConverter)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https://https://github.com/Nihilnia/BinaryConverter)<br/>
+[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://github.com/Nihilnia/BinaryConverter)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https://nihilnia.github.io/Nihilnia/BinaryConverter)<br/>
 
 - [Event Key Codes](https://github.com/Nihilnia/EventKeyCodes)<br/>
 The tool for showing off the JS Event key codes.<br/>
