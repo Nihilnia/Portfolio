@@ -1,5 +1,4 @@
-# My Portfolio [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) [![Linkedin Profile](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/okantopal)
-
+# My Portfolio ![VSCode](https://badges.aleen42.com/src/visual_studio_code.svg) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) 
 Welcome to my portfolio repository! This is where I showcase my best work and projects to potential employers and collaborators. 
 
 ## Table of Contents
@@ -20,13 +19,10 @@ In this repository, you will find a collection of my best work and projects. Eac
 
 The technologies I used in this portfolio include:
 
-- HTML
-- CSS
-- ![Javascript](https://badges.aleen42.com/src/javascript.svg)
-- React
-- Node.js
-- Express
-- MongoDB
+- ![HTML](https://img.shields.io/badge/HTML-1e1e1e?logo=HTML5&logoColor=FFAA33)
+- ![CSS](https://img.shields.io/badge/CSS-1e1e1e?logo=CSS3&logoColor=blue)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-1e1e1e?logo=JavaScript&logoColor=yellow)
+- ![Photoshop](https://img.shields.io/badge/Photoshop-1e1e1e?logo=Adobe+Photoshop&logoColor=blue)
 
 ## Features
 
