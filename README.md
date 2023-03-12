@@ -27,7 +27,6 @@ The technologies I used in this portfolio include:
 - ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-1e1e1e?logo=Visual+Studio+Code&logoColor=blue)
 
 ## Projects
-[![Paja A$$](https://img.shields.io/badge/Paja_A%24%24-1f1f1f?logo=Cash+App)](https://tenor.com/view/antonio-banderas-spanking-spank-punishment-time-bad-girl-gif-25199815)<br/>
 Some of the projects of my portfolio include:
 
 - [Password Generator](https://github.com/Nihilnia/PasswordGenerator)<br/>
