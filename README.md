@@ -35,27 +35,27 @@ The tool that make it easier to create a completely random password with any len
 
 - [Todo List](https://github.com/Nihilnia/TodoList)<br/>
 Website that help you to track your todos.<br/>
-[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https://github.com/Nihilnia/TodoList)<br/>
+[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://github.com/Nihilnia/TodoList)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https://github.com/Nihilnia/TodoList)<br/>
 
 - [Binary Converter](https://github.com/Nihilnia/BinaryConverter)<br/>
 A tool for convert binary to text, text to binary.<br/>
-[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https://https://github.com/Nihilnia/BinaryConverter)<br/>
+[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://github.com/Nihilnia/BinaryConverter)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https://https://github.com/Nihilnia/BinaryConverter)<br/>
 
 - [Event Key Codes](https://github.com/Nihilnia/EventKeyCodes)<br/>
 The tool for showing off the JS Event key codes.<br/>
-[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https://nihilnia.github.io/EventKeyCodes)<br/>
+[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://github.com/Nihilnia/EventKeyCodes)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https://nihilnia.github.io/EventKeyCodes)<br/>
 
 - [Mouse Tester](https://github.com/Nihilnia/MouseTester)<br/>
 Tool for testing the mouse buttons (left, wheel and right).<br/>
-[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https://nihilnia.github.io/MouseTester)<br/>
+[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://github.com/Nihilnia/MouseTester)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https://nihilnia.github.io/MouseTester)<br/>
 
 - [Mini Pokemon Game](https://github.com/Nihilnia/MiniPokemonGame)<br/>
 Mini click game (Work in progress).<br/>
-[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https://nihilnia.github.io/MiniPokemonGame)<br/>
+[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://github.com/Nihilnia/MiniPokemonGame)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https://nihilnia.github.io/MiniPokemonGame)<br/>
 
 - [Feedback UI](https://github.com/Nihilnia/FeedbackUIDesign)<br/>
 An example to get feedback from the user/ s.<br/>
-[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https://github.com/Nihilnia/FeedbackUIDesign)<br/>
+[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://github.com/Nihilnia/FeedbackUIDesign)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https://github.com/Nihilnia/FeedbackUIDesign)<br/>
 
 ## Installation
 
