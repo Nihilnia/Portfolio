@@ -22,6 +22,7 @@ The technologies I used in this portfolio include:
 - ![HTML](https://img.shields.io/badge/HTML-1e1e1e?logo=HTML5&logoColor=FFAA33)
 - ![CSS](https://img.shields.io/badge/CSS-1e1e1e?logo=CSS3&logoColor=blue)
 - ![JavaScript](https://img.shields.io/badge/JavaScript-1e1e1e?logo=JavaScript&logoColor=yellow)
+- ![JQuery](https://img.shields.io/badge/JQuery-1f1f1f?logo=jQuery&logoColor=blue)
 - ![Photoshop](https://img.shields.io/badge/Photoshop-1e1e1e?logo=Adobe+Photoshop&logoColor=blue)
 - ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-1e1e1e?logo=Visual+Studio+Code&logoColor=blue)
 
