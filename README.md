@@ -55,7 +55,7 @@ Mini click game (Work in progress).<br/>
 
 - [Feedback UI](https://github.com/Nihilnia/FeedbackUIDesign)<br/>
 An example to get feedback from the user/ s.<br/>
-[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://github.com/Nihilnia/FeedbackUIDesign)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https://github.com/Nihilnia/FeedbackUIDesign)<br/>
+[![Repository](https://img.shields.io/badge/Repository-1f1f1f?logo=Github)](https://github.com/Nihilnia/FeedbackUIDesign)  [![Live - Preview](https://img.shields.io/badge/Live-Preview-2ea44f)](https://nihilnia.github.io/Nihilnia/FeedbackUIDesign)<br/>
 
 ## Installation
 
