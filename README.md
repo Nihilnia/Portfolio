@@ -1,4 +1,4 @@
-# My Portfolio [![Live on Github Pages](https://img.shields.io/badge/Live_on_Github_Pages-1e1e1e?logo=GitHub&logoColor=white)](https://nihilnia.github.io/Portfolio) [![License - MIT](https://img.shields.io/badge/License-MIT-8CB904)](https://choosealicense.com/licenses/mit/)
+# My Portfolio [![Live on Github Pages](https://img.shields.io/badge/Live_on_Github_Pages-1e1e1e?logo=GitHub&logoColor=white)](https://nihilnia.github.io/Portfolio) [![LinkedIn](https://img.shields.io/badge/LinkedIn-1e1e1e?logo=LinkedIn&logoColor=blue)](https://www.linkedin.com/in/okantopal)
 Welcome to my portfolio repository! This is where I showcase my best work and projects to potential employers and collaborators. 
 
 ## Table of Contents
@@ -47,6 +47,6 @@ To view my portfolio, simply open the index.html file in your web browser. You c
 
 If you would like to contribute to my portfolio, feel free to submit a pull request. I am open to new ideas and suggestions for improving my work. 
 
-## License
+## License [![License - MIT](https://img.shields.io/badge/License-MIT-8CB904)](https://choosealicense.com/licenses/mit/)
 
 This project is licensed under the [MIT license](https://opensource.org/licenses/MIT). Feel free to use and modify the code as needed.
