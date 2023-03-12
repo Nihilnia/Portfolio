@@ -5,7 +5,7 @@ Welcome to my portfolio repository! This is where I showcase my best work and pr
 
 - [Introduction](#introduction)
 - [Technologies](#technologies)
-- [Features](#projects)
+- [Projects](#projects)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
