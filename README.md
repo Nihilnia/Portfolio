@@ -26,14 +26,17 @@ The technologies I used in this portfolio include:
 - ![Photoshop](https://img.shields.io/badge/Photoshop-1e1e1e?logo=Adobe+Photoshop&logoColor=blue)
 - ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-1e1e1e?logo=Visual+Studio+Code&logoColor=blue)
 
-## Features
+## Projects
 
-Some of the features of my portfolio include:
+Some of the projects of my portfolio include:
 
-- A visually appealing design that highlights my skills and achievements
-- Easy navigation for viewers to find the projects they are interested in
-- Detailed project descriptions with links to live demos and code snippets
-- Mobile responsiveness for viewing on different devices
+- [Password Generator](https://github.com/Nihilnia/PasswordGenerator)
+- [Todo List](https://github.com/Nihilnia/TodoList)
+- [Binary Converter](https://github.com/Nihilnia/BinaryConverter)
+- [Event Key Codes](https://github.com/Nihilnia/EventKeyCodes)
+- [Mouse Tester](https://github.com/Nihilnia/MouseTester)
+- [Mini Pokemon Game](https://github.com/Nihilnia/MiniPokemonGame)
+- [Feedback UI](https://github.com/Nihilnia/FeedbackUIDesign)
 
 ## Installation
 
