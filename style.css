@@ -3,6 +3,7 @@ body {
     color: aliceblue;
     font-family: DarkerGrotesque-Regular;
     font-size: 1.5em;
+    cursor: url(img/cursor_2.png), auto;
 }
 
 #Welcome {
