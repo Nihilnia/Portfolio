@@ -24,8 +24,10 @@ The technologies I used in this portfolio include:
 - ![CSS](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/CSS.svg)
 - ![JavaScript](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/JavaScript.svg)
 - ![JQuery](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/JQuery.svg)
-- ![Photoshop](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/Photoshop.svg)
+- ![Bootstrap](https://raw.githubusercontent.com/Nihilnia/GithubBadges/0b7f184049c916a280364eef477d4acbdebbb68b/Bootstrap.svg)
+- ![Font Awesome](https://raw.githubusercontent.com/Nihilnia/GithubBadges/0b7f184049c916a280364eef477d4acbdebbb68b/FontAwesome.svg)
 - ![Visual Studio Code](https://raw.githubusercontent.com/Nihilnia/GithubBadges/e9692944c51f668445da9f0cfba33112102a3484/VSCode.svg)
+- ![Photoshop](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/Photoshop.svg)
 
 ## Projects
 Some of the projects of my portfolio include:
