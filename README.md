@@ -2,7 +2,6 @@
 Welcome to my portfolio repository!<br/>This is where I showcase my best work and projects to potential employers and collaborators. 
 
 ## Table of Contents
-
 - [Introduction](#introduction)
 - [Technologies](#technologies)
 - [Projects](#projects)
@@ -57,17 +56,11 @@ Mini click game (Work in progress).<br/>
 An example to get feedback from the user/ s.<br/>
 [![Repository](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/Repository.svg)](https://github.com/Nihilnia/FeedbackUIDesign)  [![Live - Preview](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/LivePreview.svg)](https://nihilnia.github.io/FeedbackUIDesign)<br/>
 
-## Installation
-
-To use this repository, simply clone or download the project files to your local machine. 
-
-
 ## Usage
-
+You can [view the live demo](https://nihilnia.github.io/Portfolio) hosted on GitHub Pages.
 To view my portfolio, simply open the index.html file in your web browser. You can also navigate to each project folder and open the README file for more information about each project.
 
 ## Contributing
-
 If you would like to contribute to my portfolio, feel free to submit a pull request. I am open to new ideas and suggestions for improving my work. 
 
 ## License
