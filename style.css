@@ -210,3 +210,8 @@ button:hover .play {
 .switch input[type="checkbox"]:checked:active+.slider::after {
     transform: translateX(calc(var(--button-width) - var(--toggle-wider) - var(--button-toggle-offset)));
 }
+
+p {
+    height: 70px;
+    text-align: center;
+}
