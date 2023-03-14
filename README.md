@@ -1,4 +1,4 @@
-# My Portfolio [![Live on Github Pages](https://img.shields.io/badge/Live_on_Github_Pages-1e1e1e?logo=GitHub&logoColor=white)](https://nihilnia.github.io/Portfolio) [![LinkedIn](https://img.shields.io/badge/LinkedIn-1e1e1e?logo=LinkedIn&logoColor=blue)](https://www.linkedin.com/in/okantopal)
+# My Portfolio [![Live on Github Pages](https://img.shields.io/badge/Live_on_Github_Pages-1e1e1e?logo=GitHub&logoColor=white)](https://nihilnia.github.io/Portfolio) [![LinkedIn](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/Linkedin.svg)](https://www.linkedin.com/in/okantopal)
 Welcome to my portfolio repository!<br/>This is where I showcase my best work and projects to potential employers and collaborators. 
 
 ## Table of Contents
