@@ -1,5 +1,7 @@
-import { countEmCollection, db } from "./Firebase.js";
+import { countPortfolioCollection } from "./Firebase.js";
 import { addDoc } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore.js";
+import { clickTest } from "./functions.js";
+window.clickTest = clickTest;
 
 $("document").ready(() => {
   console.log("R");
@@ -20,7 +22,7 @@ $("document").ready(() => {
 
   const handleTraffic = () => {
     const doCount = async () => {
-      const newCountRef = await addDoc(countEmCollection, {
+      const newCountRef = await addDoc(countPortfolioCollection, {
         time: ddate,
         date: formatDate,
         randNum: generateRandNumb(1000),

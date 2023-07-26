@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/_N.png" />
     <title>Nihilcoding</title>
     <style>
         /* ===== Scrollbar CSS ===== */
@@ -60,10 +61,12 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#"
+                            onclick="clickTest('navBar', 'btnHome')">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#Projects">Projects</a>
+                            <a class="nav-link" href="#Projects"
+                            onclick="clickTest('navBar', 'btnProjects')">Projects</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -71,27 +74,40 @@
                                 Github Repos
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="https://github.com/Nihilnia/SpotifyApiProject_v2"
+                                        target="_blank"
+                                        onclick="clickTest('navBar', 'repoSpotifyApiProject_v2')"><i class="fab fa-github"></i> Spotify Api Project v2</a></li>
+                                <li><a class="dropdown-item" href="https://github.com/Nihilnia/TodoApp_v2"
+                                        target="_blank"
+                                        onclick="clickTest('navBar', 'repoTodoApp_v2')"><i class="fab fa-github"></i> Todo App v2</a></li>
                                 <li><a class="dropdown-item" href="https://github.com/Nihilnia/PasswordGenerator"
-                                        target="_blank"><i class="fab fa-github"></i> Password Generator</a></li>
+                                        target="_blank"
+                                        onclick="clickTest('navBar', 'repoPasswordGenerator')"><i class="fab fa-github"></i> Password Generator</a></li>
                                 <li><a class="dropdown-item" href="https://github.com/Nihilnia/BinaryConverter"
-                                        target="_blank"><i class="fab fa-github"></i> Binary Converter</a></li>
+                                        target="_blank"
+                                        onclick="clickTest('navBar', 'repoBinaryConverter')"><i class="fab fa-github"></i> Binary Converter</a></li>
                                 <li><a class="dropdown-item" href="https://github.com/Nihilnia/TodoList"
-                                        target="_blank"><i class="fab fa-github"></i> Todo List</a></li>
+                                        target="_blank"
+                                        onclick="clickTest('navBar', 'repoTod0List')"><i class="fab fa-github"></i> Todo List</a></li>
                                 <li><a class="dropdown-item" href="https://github.com/Nihilnia/MiniPokemonGame"
-                                        target="_blank"><i class="fab fa-github"></i> Mini Pokemon Game</a></li>
+                                        target="_blank"
+                                        onclick="clickTest('navBar', 'repoMiniPokemonGameLMAO')"><i class="fab fa-github"></i> Mini Pokemon Game</a></li>
                                 <li><a class="dropdown-item" href="https://github.com/Nihilnia/EventKeyCodes"
-                                        target="_blank"><i class="fab fa-github"></i> Event Key Codes</a></li>
+                                        target="_blank"
+                                        onclick="clickTest('navBar', 'repoEventKeyCodes')"><i class="fab fa-github"></i> Event Key Codes</a></li>
                                 <li><a class="dropdown-item" href="https://github.com/Nihilnia/MouseTester"
-                                        target="_blank"><i class="fab fa-github"></i> Mouse Tester</a>
+                                        target="_blank"
+                                        onclick="clickTest('navBar', 'repoMouseTester')"><i class="fab fa-github"></i> Mouse Tester</a>
                                 </li>
-                                <li><a class="dropdown-item" href="https://github.com/Nihilnia/FeedbackUIDesign"
+                                <!-- <li><a class="dropdown-item" href="https://github.com/Nihilnia/FeedbackUIDesign"
                                         target="_blank"><i class="fab fa-github"></i> Feedback IU Design (Terrible)</a>
-                                </li>
+                                </li> -->
                                 <!-- <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <li> -->
                                 <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="https://github.com/Nihilnia/IMDbTop250" target="_blank"><i
+                        <li><a class="dropdown-item" href="https://github.com/Nihilnia/IMDbTop250" target="_blank"
+                            onclick="clickTest('navBar', 'repoPythonIMDBTop250')"><i
                                     class="fa-brands fa-python"></i> IMDb
                                 Top 250 Movie Getter (Python)</a></li>
                     </ul>
@@ -103,16 +119,20 @@
                 </div>
                 <div class="d-flex flex-row-reverse bd-highlight">
                     <div class="p-2 bd-highlight">
-                        <a href="https://github.com/Nihilnia" class="me-4 link-secondary" target="_blank">
+                        <a href="https://github.com/Nihilnia" class="me-4 link-secondary" target="_blank"
+                        onclick="clickTest('navBar', 'GitHub')">
                             <i class="fab fa-github"></i>
-                            <a href="https://www.linkedin.com/in/okantopal" class="me-4 link-secondary" target="_blank">
+                            <a href="https://www.linkedin.com/in/okantopal" class="me-4 link-secondary" target="_blank"
+                            onclick="clickTest('navBar', 'LinkedFIn')">
                                 <i class="fab fa-linkedin"></i>
                             </a>
-                            <a href="https://twitter.com/nihilcoding" class="me-4 link-secondary" target="_blank">
+                            <a href="https://twitter.com/nihilcoding" class="me-4 link-secondary" target="_blank"
+                            onclick="clickTest('navBar', 'Twitter')">
                                 <i class="fab fa-twitter"></i>
                             </a>
                             <a href="https://open.spotify.com/user/thesimulacrum" class="me-4 link-secondary"
-                                target="_blank">
+                                target="_blank"
+                                onclick="clickTest('navBar', 'Spotify')">
                                 <i class="fa-brands fa-spotify"></i>
                             </a>
                             <!-- <a href="https://instagram.com/nihilcoding" class="me-4 link-secondary">
@@ -131,13 +151,15 @@
 
     </div>
     <div id="Projects" class="daSectionz">
+        
         <div class="projectsContainer">
+            
             <!-- Topic Cards -->
             <div id="cards_landscape_wrap-2">
                 <div class="container">
                     <div class="row">
-                        
-                        <!-- Spotify Api Project -->
+                        <h2>My Latest Projects</h2>
+                        <!-- ?Project Spotify Api -->
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <a href="">
                                 <div class="card-flyer">
@@ -149,8 +171,9 @@
                                             <h6>Spotify Api</h6>
                                             <p>A full-stack api project that allows you to create your own account, search & follow for songs, artists and playlists.</p>
                                             <div class="prjButtonContainer">
-                                                <a href="https://projektspotifytestv0.netlify.app" target="_blank">
-                                                    <button type="button" class="btn btnPrj">
+                                                <a href="https://spotifyapiproject.netlify.app" target="_blank">
+                                                    <button type="button" class="btn btnPrj"
+                                                    onclick="clickTest('projekt', 'prjSpotifyApi')">
                                                         <strong>
                                                             Live Demo
                                                         </strong>
@@ -170,21 +193,24 @@
                                 </div>
                             </a>
                         </div>
+
+                        <!-- ?Project Todo App V2 -->
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <a href="">
                                 <div class="card-flyer">
                                     <div class="text-box">
                                         <div class="image-box">
-                                            <img src="img/Projects/Binary_Converter/thumbnail.png" alt="" />
+                                            <img src="img/Projects/Todo_App_v2/thumbnail.png" alt="" />
                                         </div>
                                         <div class="text-container">
-                                            <h6>Binary Converter</h6>
+                                            <h6>Todo App</h6>
                                             <p>The tool that provides a simple and<br />user-friendly way to convert
                                                 text inputs<br />
                                                 to binary code and binary code to text.</p>
                                             <div class="prjButtonContainer">
-                                                <a href="Projects/Binary_Converter/index.html" target="_blank">
-                                                    <button type="button" class="btn btnPrj">
+                                                <a href="https://tod0appv2.netlify.app" target="_blank">
+                                                    <button type="button" class="btn btnPrj"
+                                                    onclick="clickTest('projekt', 'prjTodoAppV2')">
                                                         <strong>
                                                             Live Demo
                                                         </strong>
@@ -204,6 +230,8 @@
                                 </div>
                             </a>
                         </div>
+
+                        <!-- ?Project Password Generator -->
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 
                             <div class="card-flyer">
@@ -217,7 +245,8 @@
                                             letters, numbers, and symbols.</p>
                                         <div class="prjButtonContainer">
                                             <a href="Projects/Password_Generator/index.html" target="_blank">
-                                                <button type="button" class="btn btnPrj">
+                                                <button type="button" class="btn btnPrj"
+                                                onclick="clickTest('projekt', 'prjPasswordGenerator')">
                                                     <strong>
                                                         Live
                                                         Demo
@@ -237,6 +266,45 @@
                             </div>
                             </a>
                         </div>
+                        
+                        <!-- ?Project Binary Converter -->
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <a href="">
+                                <div class="card-flyer">
+                                    <div class="text-box">
+                                        <div class="image-box">
+                                            <img src="img/Projects/Binary_Converter/thumbnail.png" alt="" />
+                                        </div>
+                                        <div class="text-container">
+                                            <h6>Binary Converter</h6>
+                                            <p>The tool that provides a simple and<br />user-friendly way to convert
+                                                text inputs<br />
+                                                to binary code and binary code to text.</p>
+                                            <div class="prjButtonContainer">
+                                                <a href="Projects/Binary_Converter/index.html" target="_blank">
+                                                    <button type="button" class="btn btnPrj"
+                                                    onclick="clickTest('projekt', 'prjBinaryConverter')">
+                                                        <strong>
+                                                            Live Demo
+                                                        </strong>
+                                                        <div id="container-stars">
+                                                            <div id="stars"></div>
+                                                        </div>
+
+                                                        <div id="glow">
+                                                            <div class="circle"></div>
+                                                            <div class="circle"></div>
+                                                        </div>
+                                                    </button></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- ?Project Tod0 List -->
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <a href="">
                                 <div class="card-flyer">
@@ -251,7 +319,8 @@
                                                 tasks. You can add new tasks, mark tasks as completed.</p>
                                             <div class="prjButtonContainer">
                                                 <a href="Projects/Todo_List/index.html" target="_blank">
-                                                    <button type="button" class="btn btnPrj">
+                                                    <button type="button" class="btn btnPrj"
+                                                    onclick="clickTest('projekt', 'prjTod0List')">
                                                         <strong>
                                                             Live
                                                             Demo
@@ -273,7 +342,8 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- FEEDBACK UI -->
+
+                        <!-- ?Project FEEDBACK UI -->
                         <!-- <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <a href="">
                                 <div class="card-flyer">
@@ -309,6 +379,8 @@
                                 </div>
                             </a>
                         </div> -->
+                        
+                        <!-- ?Project Mini Pokémon Game -->
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <a href="">
                                 <div class="card-flyer">
@@ -324,7 +396,8 @@
                                                 in another location.</p>
                                             <div class="prjButtonContainer">
                                                 <a href="Projects/Mini_Pokemon_Game/index.html" target="_blank">
-                                                    <button type="button" class="btn btnPrj">
+                                                    <button type="button" class="btn btnPrj"
+                                                    onclick="clickTest('projekt', 'prjMiniPokemonGameLMAO')">
                                                         <strong>
                                                             Live Demo
                                                         </strong>
@@ -344,6 +417,8 @@
                                 </div>
                             </a>
                         </div>
+
+                        <!-- ?Project Event Key Codes -->
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <a href="">
                                 <div class="card-flyer">
@@ -357,7 +432,8 @@
                                                 any key pressed on the keyboard.</p>
                                             <div class="prjButtonContainer">
                                                 <a href="Projects/Event_Key_Codes/index.html" target="_blank">
-                                                    <button type="button" class="btn btnPrj">
+                                                    <button type="button" class="btn btnPrj"
+                                                    onclick="clickTest('projekt', 'prjEventKeyCodes')">
                                                         <strong>
                                                             Live
                                                             Demo
@@ -378,6 +454,8 @@
                                 </div>
                             </a>
                         </div>
+
+                        <!-- ?Project Mouse Tester -->
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <a href="">
                                 <div class="card-flyer">
@@ -392,7 +470,8 @@
                                                 wheel and right)</p>
                                             <div class="prjButtonContainer">
                                                 <a href="Projects/Mouse_Tester/index.html" target="_blank">
-                                                    <button type="button" class="btn btnPrj">
+                                                    <button type="button" class="btn btnPrj"
+                                                    onclick="clickTest('projekt', 'prjMouseTester')">
                                                         <strong>
                                                             Live
                                                             Demo
@@ -413,6 +492,7 @@
                                 </div>
                             </a>
                         </div>
+
                         <!-- Incomin' Project/ s -->
                         <!-- <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <a href="">
@@ -457,7 +537,7 @@
         </div>
     </div>
 
-    <!-- Footer -->
+    <!-- ?Footer -->
     <footer class="text-center text-lg-start  text-muted" id="footer">
         <!-- Section: Social media -->
         <section class="d-flex justify-content-center p-4 border-bottom">
@@ -472,8 +552,8 @@
                 <!-- <a href="" class="me-4 link-secondary">
                 <i class="fab fa-facebook-f"></i>
             </a> -->
-                <a href="https://github.com/Nihilnia" class="me-4 link-secondary" target="_blank">
-                    <i class="fab fa-github"></i> Github
+                <a href="https://github.com/Nihilnia" class="me-4 link-secondary" target="_blank" onclick="clickTest('footer', 'GitHub')">
+                    <i class="fab fa-github"></i> GitHub
                 </a>
                 <!-- <a href="" class="me-4 link-secondary">
                 <i class="fab fa-google"></i>
@@ -481,14 +561,14 @@
                 <!-- <a href="https://instagram.com/nihilcoding" class="me-4 link-secondary">
                     <i class="fab fa-instagram"></i> Instagram
                 </a> -->
-                <a href="https://www.linkedin.com/in/okantopal" class="me-4 link-secondary" target="_blank">
+                <a href="https://www.linkedin.com/in/okantopal" class="me-4 link-secondary" target="_blank" onclick="clickTest('footer', 'LinkedFIn')">
                     <i class="fab fa-linkedin"></i> Linked-in
                 </a>
-                <a href="https://twitter.com/nihilcoding" class="me-4 link-secondary" target="_blank">
+                <a href="https://twitter.com/nihilcoding" class="me-4 link-secondary" target="_blank" onclick="clickTest('footer', 'Twitter')">
                     <i class="fab fa-twitter"></i> Twitter
                 </a>
                 <a href="https://open.spotify.com/user/thesimulacrum?si=aaf5c17d6a7d4c40" class="me-4 link-secondary"
-                    target="_blank">
+                    target="_blank" onclick="clickTest('footer', 'Spotify')">
                     <i class="fa-brands fa-spotify"></i> Spotify
                 </a>
             </div>
@@ -519,6 +599,8 @@
 
 
     <script src="script.js" type="module"></script>
+
+    </script>
 </body>
 
 </html>
