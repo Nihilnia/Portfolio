@@ -32,6 +32,14 @@ The technologies I used in this portfolio include:
 ## Projects
 Some of the projects of my portfolio include:
 
+- [Spotify Api Project](https://spotifyapiproject.netlify.app)<br/>
+A full-stack api project that allows you to create your own account, search & follow for songs, artists and playlists. <br/>
+[![Repository](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/Repository.svg)](https://github.com/Nihilnia/SpotifyApiProject_v2)  [![Live - Preview](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/LivePreview.svg)](https://github.com/Nihilnia/SpotifyApiProject_v2)<br/>
+
+- [Todo App](https://tod0appv2.netlify.app)<br/>
+A full-stack web application that allows you to create, manage and organize your tasks. You can add new tasks, mark tasks as completed.  <br/>
+[![Repository](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/Repository.svg)](https://github.com/Nihilnia/TodoApp_v2)  [![Live - Preview](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/LivePreview.svg)](https://github.com/Nihilnia/TodoApp_v2)<br/>
+
 - [Password Generator](https://github.com/Nihilnia/PasswordGenerator)<br/>
 The tool that make it easier to create a completely random password with any length.<br/>
 [![Repository](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/Repository.svg)](https://github.com/Nihilnia/PasswordGenerator)  [![Live - Preview](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/LivePreview.svg)](https://nihilnia.github.io/PasswordGenerator)<br/>
@@ -56,9 +64,9 @@ Tool for testing the mouse buttons (left, wheel and right).<br/>
 Mini click game (Work in progress).<br/>
 [![Repository](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/Repository.svg)](https://github.com/Nihilnia/MiniPokemonGame)  [![Live - Preview](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/LivePreview.svg)](https://nihilnia.github.io/MiniPokemonGame)<br/>
 
-- [Feedback UI](https://github.com/Nihilnia/FeedbackUIDesign)<br/>
+<!-- - [Feedback UI](https://github.com/Nihilnia/FeedbackUIDesign)<br/>
 An example to get feedback from the user/ s.<br/>
-[![Repository](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/Repository.svg)](https://github.com/Nihilnia/FeedbackUIDesign)  [![Live - Preview](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/LivePreview.svg)](https://nihilnia.github.io/FeedbackUIDesign)<br/>
+[![Repository](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/Repository.svg)](https://github.com/Nihilnia/FeedbackUIDesign)  [![Live - Preview](https://raw.githubusercontent.com/Nihilnia/GithubBadges/d789604b7dce1b979d009e0751f7d4a26c07a2f9/LivePreview.svg)](https://nihilnia.github.io/FeedbackUIDesign)<br/> -->
 
 ## Usage
 You can [view the live demo](https://nihilnia.github.io/Portfolio) hosted on GitHub Pages.
