@@ -73,7 +73,7 @@ An example to get feedback from the user/ s.<br/>
 
 ## Usage
 You can [view the live demo](https://nihilnia.github.io/Portfolio) hosted on GitHub Pages.
-To view my portfolio, simply open the index.html file in your web browser. You can also navigate to each project folder and open the README file for more information about each project.
+<!-- To view my portfolio, simply open the index.html file in your web browser. You can also navigate to each project folder and open the README file for more information about each project. -->
 
 ## Contributing
 If you would like to contribute to my portfolio, feel free to submit a pull request. I am open to new ideas and suggestions for improving my work. 
