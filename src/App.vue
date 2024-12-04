@@ -25,7 +25,7 @@
         <div><font-awesome-icon :icon="['fas', 'globe']" /> Websites</div>
       </section>
     </div>
-    <div class="right-side">
+    <div id="content">
       <WelcomeHeader text="Hi, I am a web developer." />
     </div>
   </div>
@@ -46,11 +46,21 @@ export default {
   max-width: 100%;
   width: 100%;
   grid-template-columns: 12.5% 87.5%;
+  background-image: url(./assets/images/GG.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-size: 110%;
 }
 
 #sidebar {
   display: grid;
   padding: 20px 25px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#content {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #sidebar section > p {

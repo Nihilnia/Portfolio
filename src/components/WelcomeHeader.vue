@@ -1,6 +1,6 @@
 <template>
   <div id="container">
-    <h1 id="typewriter">{{ displayedText }}</h1>
+    <p id="typewriter">{{ displayedText }}</p>
   </div>
 </template>
 
@@ -35,7 +35,6 @@ export default {
 <style scoped>
 #container {
   height: 100vh;
-  background-image: url(../assets/images/G.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,7 +42,7 @@ export default {
 }
 
 #typewriter {
-  font-size: 34px;
+  font-size: 24px;
   border-right: 2px solid;
   width: fit-content;
   animation: blink 0.7s step-end infinite;
