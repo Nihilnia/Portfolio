@@ -49,6 +49,7 @@ export default {
   background-image: url(./assets/images/GG.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-position-x: -10%;
   background-size: cover;
   background-size: 110%;
 }
