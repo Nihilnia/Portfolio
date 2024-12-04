@@ -43,7 +43,7 @@ export default {
 }
 
 #typewriter {
-  font-size: 44px;
+  font-size: 34px;
   border-right: 2px solid;
   width: fit-content;
   animation: blink 0.7s step-end infinite;
