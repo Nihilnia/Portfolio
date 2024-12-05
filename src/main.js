@@ -7,6 +7,7 @@ import "./assets/styles/fonts.css";
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { faFileCode } from "@fortawesome/free-regular-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import {
   faGear,
   faUser,
@@ -27,7 +28,9 @@ library.add(
   faBell,
   faCode,
   faCodeMerge,
-  faGlobe
+  faGlobe,
+  faGithub,
+  faLinkedin
 );
 
 const app = createApp(App);

@@ -1,7 +1,7 @@
 <template>
-  <MainLayout>
+  <MainLayout :bgImage="require('@/assets/images/main.png')" currentPage="home">
     <template v-slot:mainContent>
-      <TypeWriterComponent text="Welcome to my website" />
+      <TypeWriterComponent text="Hi, I am a web developer.." />
     </template>
   </MainLayout>
 </template>
@@ -16,4 +16,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+/* Add any specific styles for the HomePage */
+</style>
