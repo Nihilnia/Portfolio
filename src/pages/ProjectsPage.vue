@@ -24,6 +24,12 @@
           :bgImg="eventKeyCodesProjectImage"
           projectLink="https://nihilnia.github.io/PasswordGenerator"
         />
+        <ParallaxCardComponent
+          title="Event Key Codes"
+          subTitle="Front-End • Tools"
+          :bgImg="eventKeyCodesProjectImage"
+          projectLink="https://nihilnia.github.io/PasswordGenerator"
+        />
       </section>
     </template>
   </MainLayout>
@@ -54,5 +60,13 @@ export default {
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   padding: 50px;
+}
+
+@media all and (max-width: 1200px) {
+  #container-projects {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+    gap: 25px;
+  }
 }
 </style>

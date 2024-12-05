@@ -55,4 +55,14 @@ export default {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0 50px;
 }
+
+@media all and (max-width: 1200px) {
+  #container-main {
+    grid-template-columns: 25% 75%;
+  }
+
+  #content {
+    padding: 25px 25px;
+  }
+}
 </style>

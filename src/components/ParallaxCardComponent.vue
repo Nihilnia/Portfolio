@@ -77,20 +77,9 @@ const handleCardClick = () => {
 </script>
 
 <style scoped>
-.relative-card {
-  position: relative;
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
-}
-
 .card {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   border-radius: 15px;
+  height: 300px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.2s ease-out;
@@ -139,5 +128,15 @@ const handleCardClick = () => {
 
 .subtitle {
   color: white;
+}
+
+@media all and (max-width: 1200px) {
+  .card {
+    height: 200px;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
 }
 </style>
