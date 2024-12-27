@@ -1,16 +1,18 @@
 <template>
-  <div id="container-main" :style="containerStyle">
-    <SidebarComponent :currentPage="currentPage" />
+  <OptionsComponent @handle-hide-sidebar="handleHideSidebar" />
+  <div id="container-main" :style="containerStyle" :class="gridClass">
+    <SidebarComponent :currentPage="currentPage" v-if="!isSingleColumn" />
     <div id="content"><slot name="mainContent" /></div>
   </div>
 </template>
 
 <script>
 import SidebarComponent from "@/components/SidebarComponent.vue";
+import OptionsComponent from "@/components/OptionsComponent.vue";
 
 export default {
   name: "MainLayout",
-  components: { SidebarComponent },
+  components: { SidebarComponent, OptionsComponent },
   props: {
     bgImage: {
       type: String,
@@ -28,6 +30,21 @@ export default {
       default: "cover",
     },
   },
+  data() {
+    return {
+      isSingleColumn: false,
+      isHideSidebar: false
+    };
+  },
+  methods: {
+    toggleGrid() {
+      console.log("ajsdjasd");
+      this.isSingleColumn = !this.isSingleColumn;
+    },
+    handleHideSidebar(){
+
+    }
+  },
   computed: {
     containerStyle() {
       return {
@@ -38,6 +55,12 @@ export default {
         backgroundSize: this.bgSize,
       };
     },
+    gridClass() {
+      return this.isSingleColumn ? "single-column" : "two-column";
+    },
+    hideSidebar(){
+      return this.isHideSidebar ? ""
+    }
   },
 };
 </script>
@@ -48,6 +71,13 @@ export default {
   display: grid;
   max-width: 100%;
   width: 100%;
+}
+
+.single-column {
+  grid-template-columns: 1fr;
+}
+
+.two-column {
   grid-template-columns: 12.5% 87.5%;
 }
 

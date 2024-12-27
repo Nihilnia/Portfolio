@@ -1,9 +1,7 @@
 <template>
   <div id="sidebar">
     <section id="intel">
-      <a href="">
-        <font-awesome-icon icon="fa-solid fa-gear" />
-      </a>
+      <font-awesome-icon icon="fa-solid fa-gear" @click="handleOptions" />
       <img src="../assets/images/2glance__big copy.png" alt="" />
       <a href="">
         <font-awesome-icon :icon="['fas', 'bell']" />
@@ -11,39 +9,39 @@
     </section>
     <section>
       <p>Nihilcoding</p>
-      <div :class="['bar-home', { active: currentPage === 'home' }]">
-        <router-link to="/" class="link">
+      <router-link to="/" class="link">
+        <div :class="['bar-home', { active: currentPage === 'home' }]">
           <font-awesome-icon :icon="['fas', 'home']" /> Home
-        </router-link>
-      </div>
-      <div :class="['bar-home', { active: currentPage === 'projects' }]">
-        <router-link to="/projects" class="link">
+        </div>
+      </router-link>
+      <router-link to="/projects" class="link">
+        <div :class="['bar-home', { active: currentPage === 'projects' }]">
           <font-awesome-icon :icon="['far', 'file-code']" /> Projects
-        </router-link>
-      </div>
-      <div :class="['bar-home', { active: currentPage === 'about' }]">
-        <router-link to="/about" class="link">
+        </div>
+      </router-link>
+      <router-link to="/about" class="link">
+        <div :class="['bar-home', { active: currentPage === 'about' }]">
           <font-awesome-icon :icon="['fas', 'user']" /> About me
-        </router-link>
-      </div>
+        </div>
+      </router-link>
     </section>
     <section>
       <p>My Works</p>
-      <div :class="['bar-home', { active: currentPage === 'tools' }]">
-        <router-link to="/tools" class="link">
+      <router-link to="/tools" class="link">
+        <div :class="['bar-home', { active: currentPage === 'tools' }]">
           <font-awesome-icon :icon="['fas', 'gear']" /> Tools
-        </router-link>
-      </div>
-      <div :class="['bar-home', { active: currentPage === 'api-projects' }]">
-        <router-link to="/api-projects" class="link">
+        </div>
+      </router-link>
+      <router-link to="/api-projects" class="link">
+        <div :class="['bar-home', { active: currentPage === 'api-projects' }]">
           <font-awesome-icon :icon="['fas', 'code-merge']" /> Api Projects
-        </router-link>
-      </div>
-      <div :class="['bar-home', { active: currentPage === 'websites' }]">
-        <router-link to="/websites" class="link">
+        </div>
+      </router-link>
+      <router-link to="/websites" class="link">
+        <div :class="['bar-home', { active: currentPage === 'websites' }]">
           <font-awesome-icon :icon="['fas', 'globe']" /> Websites
-        </router-link>
-      </div>
+        </div>
+      </router-link>
     </section>
     <section id="links">
       <a href="https://github.com/Nihilnia" target="_blank"
@@ -59,8 +57,17 @@
 <script>
 export default {
   name: "SidebarComponent",
+  components: {},
   props: {
     currentPage: String,
+  },
+  methods: {
+    handleOptions() {
+      console.log("anasd");
+      document
+        .getElementById("container-options")
+        .classList.toggle("hide-show");
+    },
   },
 };
 </script>
