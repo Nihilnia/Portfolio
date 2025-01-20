@@ -25,8 +25,9 @@ export default defineComponent({
 
     // Function to type the title
     const typeTitle = () => {
-      const title = String(props.title); // Ensure title is a string, in case it's null or undefined
-      if (!title || title === "") return; // Ensure title is not empty or null
+      // Ensure title is a valid string, fallback to "Default value" if it's null or undefined
+      const title = props.title ? String(props.title) : "Default value";
+      if (title === "") return; // Ensure title is not empty
       if (interval) clearInterval(interval); // Clear any previous interval
       displayedTitle.value = ""; // Reset the title
       let i = 0;
