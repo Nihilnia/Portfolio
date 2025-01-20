@@ -10,14 +10,16 @@ export default defineComponent({
     title: {
       type: String,
       required: true,
+      default: "", // Default value to avoid null/undefined
     },
   },
   setup(props) {
     const displayedTitle = ref("");
     let interval = null;
 
+    // Function to type the title
     const typeTitle = () => {
-      if (!props.title) return; // Check if title is null or undefined
+      if (!props.title) return; // Check if title is null, undefined, or empty
       if (interval) clearInterval(interval); // Clear any previous interval
       displayedTitle.value = ""; // Reset the title
       let i = 0;
@@ -35,13 +37,14 @@ export default defineComponent({
     // Watch for changes in the `title` prop and retype the title
     watch(
       () => props.title,
-      () => {
+      (newTitle) => {
+        console.log("New title:", newTitle); // Log the title value for debugging
         typeTitle();
       }
     );
 
     onMounted(() => {
-      typeTitle();
+      typeTitle(); // Start typing the title when the component is mounted
     });
 
     onUnmounted(() => {
