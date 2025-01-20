@@ -26,10 +26,10 @@ export default {
   },
   data() {
     return {
-      currentPage: null,
+      currentPage: "Welcome",
       topTitle: "Hello world!",
-      topSubtitle: null,
-      bgImage: "a.jpg",
+      topSubtitle: "I’m Okan, a Passionate Web Developer",
+      bgImage: "x.png",
     };
   },
   computed: {
