@@ -17,6 +17,7 @@ export default defineComponent({
     let interval = null;
 
     const typeTitle = () => {
+      if (!props.title) return; // Check if title is null or undefined
       if (interval) clearInterval(interval); // Clear any previous interval
       displayedTitle.value = ""; // Reset the title
       let i = 0;
