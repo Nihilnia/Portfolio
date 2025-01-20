@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from "vue-router";
-
 import HomePage from "@/pages/HomePage.vue";
 import TheProjects from "@/pages/TheProjects.vue";
 import TheLab from "@/pages/TheLab.vue";
@@ -8,7 +7,7 @@ import ThePortfolio from "@/pages/ThePortfolio.vue";
 import UsefulLinks from "@/pages/UsefulLinks.vue";
 
 const routes = [
-  { path: "/", component: HomePage },
+  { path: "/", component: HomePage }, // Home route remains "/"
   { path: "/projects", component: TheProjects },
   { path: "/lab", component: TheLab },
   { path: "/about-me", component: TheNihil },
@@ -17,7 +16,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory("/Portfolio/"), // Ensure all routes are prefixed with '/Portfolio/'
   routes,
 });
 
