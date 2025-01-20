@@ -25,13 +25,14 @@ export default defineComponent({
 
     // Function to type the title
     const typeTitle = () => {
-      if (!props.title || props.title === "") return; // Ensure title is not null or empty
+      const title = String(props.title); // Ensure title is a string, in case it's null or undefined
+      if (!title || title === "") return; // Ensure title is not empty or null
       if (interval) clearInterval(interval); // Clear any previous interval
       displayedTitle.value = ""; // Reset the title
       let i = 0;
       interval = setInterval(() => {
-        if (i < props.title.length) {
-          displayedTitle.value += props.title[i];
+        if (i < title.length) {
+          displayedTitle.value += title[i];
           i++;
         } else {
           clearInterval(interval);
