@@ -9,8 +9,7 @@ export default defineComponent({
   props: {
     title: {
       type: String,
-      required: true,
-      default: "Default value",
+      default: "Default value", // Provide a default value for title if not passed
     },
   },
   setup(props) {
@@ -19,7 +18,7 @@ export default defineComponent({
 
     // Function to type the title
     const typeTitle = () => {
-      if (!props.title) return; // Check if title is null, undefined, or empty
+      if (!props.title || props.title === "") return; // Ensure title is not null or empty
       if (interval) clearInterval(interval); // Clear any previous interval
       displayedTitle.value = ""; // Reset the title
       let i = 0;
