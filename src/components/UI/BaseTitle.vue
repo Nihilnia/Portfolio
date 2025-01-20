@@ -10,7 +10,7 @@ export default defineComponent({
     title: {
       type: String,
       required: true,
-      default: "", // Default value to avoid null/undefined
+      default: "Default value",
     },
   },
   setup(props) {
