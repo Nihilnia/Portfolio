@@ -27,7 +27,7 @@ export default {
   data() {
     return {
       currentPage: null,
-      topTitle: null,
+      topTitle: "Hello world!",
       topSubtitle: null,
       bgImage: "a.jpg",
     };
