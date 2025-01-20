@@ -1,0 +1,39 @@
+body {
+    background-color: #0c0c0d;
+    color: aliceblue;
+    font-family: TiltNeon-Regular;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+@font-face {
+    font-family: TiltNeon-Regular;
+    src: url(TiltNeon-Regular.ttf);
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(122, 5, 60), rgb(5, 47, 121));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(122, 5, 60), rgba(5, 47, 121));
+}

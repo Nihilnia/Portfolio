@@ -1,0 +1,47 @@
+body {
+    width: 1920px;
+    height: 1080px;
+    background-color: #0c0c0d;
+    font-family: GolosText-SemiBold;
+    background-image: url(img/bg_3.jpg);
+
+
+    color: aliceblue;
+}
+
+#divMain {
+    height: 550px !important;
+    width: 700px !important;
+}
+
+#mainTitle {
+    border: 1px solid aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+
+
+@font-face {
+    font-family: GolosText-SemiBold;
+    src: url(fonts/GolosText-SemiBold.ttf);
+}
+
+img {
+    margin-top: 500px !important;
+    position: relative;
+}
+
+body,
+html {
+    height: 100%;
+    display: grid;
+}
+
+.center-me {
+    margin: auto;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+}
