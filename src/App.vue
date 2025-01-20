@@ -66,6 +66,10 @@ body {
   overflow: hidden;
 }
 
+body {
+  cursor: url("../public/bf1_107.cur"), auto;
+}
+
 @media all and (max-width: 1366px) {
   .app-wrapper {
     height: auto;
