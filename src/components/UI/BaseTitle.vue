@@ -20,7 +20,7 @@ export default defineComponent({
     },
   },
   setup(props) {
-    const displayedTitle = ref("");
+    const displayedTitle = ref(props.title || "Default value");
     let interval = null;
 
     const typeTitle = () => {
