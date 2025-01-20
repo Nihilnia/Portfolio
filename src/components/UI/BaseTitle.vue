@@ -3,7 +3,14 @@
 </template>
 
 <script>
-import { defineComponent, ref, watch, onMounted, onUnmounted } from "vue";
+import {
+  defineComponent,
+  ref,
+  watch,
+  onMounted,
+  onUnmounted,
+  nextTick,
+} from "vue";
 
 export default defineComponent({
   props: {
@@ -38,12 +45,16 @@ export default defineComponent({
       () => props.title,
       (newTitle) => {
         console.log("New title:", newTitle); // Log the title value for debugging
-        typeTitle();
+        nextTick(() => {
+          typeTitle(); // Ensure that the DOM is updated before starting the typing effect
+        });
       }
     );
 
     onMounted(() => {
-      typeTitle(); // Start typing the title when the component is mounted
+      nextTick(() => {
+        typeTitle(); // Start typing the title after the component has been fully mounted
+      });
     });
 
     onUnmounted(() => {
